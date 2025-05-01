@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.search-input {
+  width: 500px;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.results-contanier {
+  width: 400px;
+  margin: auto;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: left;
+  max-height: 500px;
+  overflow-y: scroll;
+  cursor: pointer;
+}
+
+.results {
+  display: block;
+  padding: 3px;
+}
+
+.results:hover {
+  background-color: beige;
+}
